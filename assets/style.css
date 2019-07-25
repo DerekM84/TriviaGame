@@ -15,8 +15,22 @@ body {
     width: 100%;
     height: 25%;
     background-color: rgb(44, 83, 240);
+    text-align:center;
+}
+.heading h1 {
+    float:left;
+    width:60%;
+}
+.heading img {
+    
+    height: 200px;
+    width: 450px;
 }
 
+.heading h5 {
+    float:right;
+    width:40%;
+}
 .main-section {
     
     width:100%;
@@ -28,10 +42,18 @@ body {
     width:100%;
 }
 .game-section {
+    position:relative;
+    top:5%;
+    margin:auto;
 
-    text-align: center;
+    text-align: right;
     height:100%;
     width:100%;
+}
+.time-remaining {
+    position:relative;
+    top: -50px;
+    font-size: 75px;
 }
 
 /* Display Rotation here */
