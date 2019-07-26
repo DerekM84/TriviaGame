@@ -1,9 +1,8 @@
 body {
-    background-color:maroon;
+    background-image: url("./images/qmarks.jpg");
     background-size: cover;
     height:100vh;
     width:100%;
-
 }
 
 .game-container{
@@ -12,17 +11,70 @@ body {
 }
 
 .heading {
-    width: 100%;
+    width: 90%;
     height: 25%;
-    background-color: rgb(44, 83, 240);
+    background-color: rgb(100,192,204);
     text-align:center;
+    border:1px solid white;
+
+}
+.start-button {
+    height: 85px;
+    width:250px;
+    background-color:rgb(85,63,245);
+    color: white;
+    font-size: 35px;
+    margin-left: 225px;
+    opacity: 0.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.submit-button button{
+    height: 85px;
+    width:250px;
+    background-color:rgb(85,63,245);
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+    opacity: 0.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.submit-button button:hover {
+    background-color:rgb(175,211,231);
+    border:5px solid black;
+    color:black;
+    opacity: 1.0;
+}
+.restart-button {
+    height: 85px;
+    width:250px;
+    background-color:rgb(85,63,245);
+    color: white;
+    font-size: 35px;
+    margin-left: 225px;
+    opacity: 0.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.restart-button:hover {
+background-color:rgb(175,211,231);
+border:5px solid black;
+color:black;
+opacity: 1.0;
+}
+
+.start-button:hover {
+background-color:rgb(175,211,231);
+border:5px solid black;
+color:black;
+opacity: 1.0;
 }
 .heading h1 {
     float:left;
     width:60%;
 }
 .heading img {
-    
+    z-index:15;
     height: 200px;
     width: 450px;
 }
@@ -32,23 +84,64 @@ body {
     width:40%;
 }
 .main-section {
-    
+    z-index:5;
+    border:1px solid white;
+    margin-top:15px;
     width:100%;
     height: 75%;
-    background-color: rgb(187, 82, 64);
+    background-color: darkblue;
+;
 }
 .game-start{
     height:100%; 
     width:100%;
 }
 .game-section {
+    background-image:url("./images/lizard.webp");
+    background-repeat: no-repeat;
+    background-size:500px;
     position:relative;
-    top:5%;
     margin:auto;
-
-    text-align: right;
+    text-align: center;
     height:100%;
     width:100%;
+    display:flex;
+    color: white;
+    top: -85px;
+}
+.column-one {
+    width:34%;
+float:left;
+}
+.column-two {
+    width:32%;
+    float:right;
+}
+.column-three {
+    width:34%;
+    float:right;
+
+}
+.question {
+    margin: 5%;
+    height:20%;
+    min-width:40%;
+    width: 100%;
+}
+.game-score {
+    width:100%;
+    height:100%;
+    color: rgb(175,211,231);
+    z-index: 11;
+    opacity: 0.8;
+    justify-content:center;
+}
+.score-content {
+    padding:auto auto;
+    position: relative;
+    font-size: 50px;
+    margin: auto auto;
+    text-align: center;
 }
 .time-remaining {
     position:relative;

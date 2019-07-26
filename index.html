@@ -19,7 +19,6 @@
             <h1>
                 <img src="./assets/images/Trivia-blocks.png" alt="trivia-logo">
             </h1>
-
             <h5 class="time-remaining">0</h5>
         </div>
         <div class="main-section">
@@ -27,78 +26,85 @@
                 <button class="start-button">Start the game</button>
             </div>
             <div class="game-section">
-
-                <div class="question question-one">
-                    <h2>Question here</h2>
-                    <label><input type="radio" name="one" id="correct" value="correct">
-                        First</label>
-                    <label><input type="radio" name="one" id="wrong" value="wrong">
-                        Second</label>
-                    <label><input type="radio" name="one" id="wrong" value="wrong">
-                        Third</label>
-                    <label><input type="radio" name="one" id="wrong" value="wrong">
-                        Fourth</label>
+                <div class="column-one">
 
                 </div>
-                <div class="question question-two">
-                    <h2>Question here</h2>
-                    <label><input type="radio" name="two" id="correct" value="correct">
-                        First</label>
-                    <label><input type="radio" name="two" id="wrong" value="wrong">
-                        Second</label>
-                    <label><input type="radio" name="two" id="wrong" value="wrong">
-                        Third</label>
-                    <label><input type="radio" name="two" id="wrong" value="wrong">
-                        Fourth</label>
+                <div class="column-two">
+                    <div class="question question-one">
+                        <h2>Largest known living organism:</h2>
+                        <label><input type="radio" name="one" id="correct" value="correct">
+                            Aspen Grove</label>
+                        <label><input type="radio" name="one" id="wrong" value="wrong">
+                            Wooly Mammoth</label>
+                        <label><input type="radio" name="one" id="wrong" value="wrong">
+                            Ancient Snapping Tortoise</label>
+                        <label><input type="radio" name="one" id="wrong" value="wrong">
+                            West Indian Elephant</label>
+
+                    </div>
+                    <div class="question question-two">
+                        <h2>The M&M candy stands for:</h2>
+                        <label><input type="radio" name="two" id="correct" value="wrong">
+                            Mmm Nom Nommmm</label>
+                        <label><input type="radio" name="two" id="wrong" value="wrong">
+                            Mr. and Mrs. Hershey</label>
+                        <label><input type="radio" name="two" id="wrong" value="correct">
+                            Mars and Murrie</label>
+                        <label><input type="radio" name="two" id="wrong" value="wrong">
+                            Miniature Melts</label>
+                    </div>
+                    <div class="question question-three">
+                        <h2>Odds of getting a Royal Flush:</h2>
+                        <label><input type="radio" name="three" id="correct" value="wrong">
+                            1 in 500 Trajillion</label>
+                        <label><input type="radio" name="three" id="wrong" value="wrong">
+                            1 in 329,331</label>
+                        <label><input type="radio" name="three" id="wrong" value="wrong">
+                            1 in 2,347,058</label>
+                        <label><input type="radio" name="three" id="wrong" value="correct">
+                            1 in 649,740</label>
+                    </div>
                 </div>
-                <div class="question question-three">
-                    <h2>Question here</h2>
-                    <label><input type="radio" name="three" id="correct" value="correct">
-                        First</label>
-                    <label><input type="radio" name="three" id="wrong" value="wrong">
-                        Second</label>
-                    <label><input type="radio" name="three" id="wrong" value="wrong">
-                        Third</label>
-                    <label><input type="radio" name="three" id="wrong" value="wrong">
-                        Fourth</label>
-                </div>
-                <div class="question question-four">
-                    <h2>Question here</h2>
-                    <label><input type="radio" name="four" id="correct" value="correct">
-                        First</label>
-                    <label><input type="radio" name="four" id="wrong" value="wrong">
-                        Second</label>
-                    <label><input type="radio" name="four" id="wrong" value="wrong">
-                        Third</label>
-                    <label><input type="radio" name="four" id="wrong" value="wrong">
-                        Fourth</label>
-                </div>
-                <div class="question question-five">
-                    <h2>Question here</h2>
-                    <label><input type="radio" name="five" id="correct" value="correct">
-                        First</label>
-                    <label><input type="radio" name="five" id="wrong" value="wrong">
-                        Second</label>
-                    <label><input type="radio" name="five" id="wrong" value="wrong">
-                        Third</label>
-                    <label><input type="radio" name="five" id="wrong" value="wrong">
-                        Fourth</label>
-                </div>
-                <div class="question submit-button">
-                    <button>SUBMIT BUTTON</button>
+                <div class="column-three">
+                    <div class="question question-four">
+                        <h2>Name the unusual major at Cornell:</h2>
+                        <label><input type="radio" name="four" id="correct" value="wrong">
+                            Gardening gnomes</label>
+                        <label><input type="radio" name="four" id="wrong" value="wrong">
+                            Recycling Bones</label>
+                        <label><input type="radio" name="four" id="wrong" value="correct">
+                            Wine</label>
+                        <label><input type="radio" name="four" id="wrong" value="wrong">
+                            Kitten Photography</label>
+                    </div>
+                    <div class="question question-five">
+                        <h2>First soft drink in space:</h2>
+                        <label><input type="radio" name="five" id="correct" value="correct">
+                            Coke</label>
+                        <label><input type="radio" name="five" id="wrong" value="wrong">
+                            Red Bull</label>
+                        <label><input type="radio" name="five" id="wrong" value="wrong">
+                            Fanta(red, not orange.)</label>
+                        <label><input type="radio" name="five" id="wrong" value="wrong">
+                            Dr. Pepper</label>
+                    </div>
+                    <div class="question submit-button">
+                        <button>SUBMIT BUTTON</button>
+                    </div>
                 </div>
             </div>
             <div class="game-score">
-
+                <div class="score-content">
                 <h3>You got
                     <span class="correct-total"> 0</span>
                     right and
-                    <span class="incorrect-total"> 0</span>
+                    <span class="incorrect-total">0</span>
                     wrong! </h3>
-
+                </div>
                 <button class="restart-button"> Reset to Home</button>
             </div>
         </div>
+
     </div>
 
     <script type="text/javascript" src="./assets/script.js"></script>
